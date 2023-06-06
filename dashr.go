@@ -7,8 +7,10 @@ import (
 	"net/http"
 )
 
+const key="pF47IRCXvUIuxjvC"
 func redirect(w http.ResponseWriter, r *http.Request) {
 	http.Redirect(w, r, "/www-data", 301)
+	
 }
 
 func main() {
